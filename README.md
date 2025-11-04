@@ -1,1 +1,1 @@
-# SPL_PixelBoard
+# SPL_Pixelboard
