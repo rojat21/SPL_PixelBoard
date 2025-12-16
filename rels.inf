@@ -1,0 +1,525 @@
+﻿Beziehung                           Parameter                 Neuer Wert
+--------                           ---------                 --- -----
+
+/*** Beziehungen für STECKERVERLKABEL:
+
+
+Ausgangsbeziehungen
+-------------------
+
+MASSE=PRO_MP_MASS                  MASSE                     2.550461e-02       
+VOLUMEN=PRO_MP_VOLUME              VOLUMEN                   3.269822e+03       
+DICHTE=PRO_MP_DENSITY              DICHTE                    7.800000e-06       
+SACHNUMMER=extract(REL_MODEL_NAME,
+1,17)                              SACHNUMMER               *                  *
+WARNING: Wahrscheinlich Fehler in Funktionsauswertung.
+NORM=NORM_NORMTEIL                 NORM                      -                  
+PTC_COMMON_NAME=REL_MODEL_NAME     PTC_COMMON_NAME           STECKERVERLKABEL   
+WERKSTOFF=PTC_MATERIAL_NAME        WERKSTOFF                 MAT_ZUWEISEN       
+
+Lokale Parameter
+----------------
+
+Symbolische Konstante           Aktueller Wert       Eigenschaften               
+------------------------------- -------------------- --------------------------- 
+BENENNUNG                       -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Benennung des
+                                                      Bauteiles                 
+
+ZUSATZBENENNUNG                 -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Zusatzbenennu
+                                                     ng                         
+
+WERKSTOFF                       MAT_ZUWEISEN         TYP: Zeichenfolge          
+                                                     QUELLE: Beziehung          
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: Werkstoff des
+                                                      Bauteiles                 
+
+DICHTE                          0.000008             TYP: Reelle Zahl           
+                                                     QUELLE: Beziehung          
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: Dichte in kg/
+                                                     mm³, wird über das Material
+                                                      zugewiesen                
+
+NORM_HALBZEUG                   -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Anbabe der No
+                                                     rm des Halbzeuges          
+
+NORM_NORMTEIL                   -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Angabe der No
+                                                     rm bei genormten Teilen    
+
+NORM                            -                    TYP: Zeichenfolge          
+                                                     QUELLE: Beziehung          
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: Angabe der No
+                                                     rm von Normteilen - Paramet
+                                                     er wird für die Stückliste 
+                                                     verwendet                  
+
+ZUSCHNITTMASS                   -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Masse Zuschni
+                                                     tt Halbzeug                
+
+FERTIGMASS                      -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Hauptabmessun
+                                                     gen - Fertigmasse          
+
+ERSTELLER                       -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG:              
+
+ERSTELLDAT                      TT.MM.JJ             TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Erstelldatum 
+
+HERSTELLVERFAHREN_TYP           0                    TYP: Ganzzahl              
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: 0kA;1Spanend;
+                                                     2Blech;3Spritzg;4Guss;5Druc
+                                                     kg;6Schmiede;7Feinbearb;8Zu
+                                                     kauf;9Norm                 
+
+MASSE                           0.025505             TYP: Reelle Zahl           
+                                                     QUELLE: Beziehung          
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: wird errechne
+                                                     t                          
+
+VOLUMEN                         3269.822079          TYP: Reelle Zahl           
+                                                     QUELLE: Beziehung          
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: errechnetes V
+                                                     olumen des fertigen Bauteil
+                                                     s in mm³                   
+
+BEMERKUNG                       -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Div. Bemerkun
+                                                     gen                        
+
+JAHRGANG                        -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Angabe der Kl
+                                                     asse/Jahrgang              
+
+BEGUTACHTER                     -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Begutachter (
+                                                     Kurzzeichen des Lehrers)   
+
+NORM_ALLGEMEINTOLERANZ          -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Norm der Allg
+                                                     emeintoleranz + Toleranzkla
+                                                     sse                        
+
+NORM_GUSS_SCHWEISS_ALLGEMEINTOL -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Norm der Allg
+                                                     emeintoleranz für Gussteile
+                                                     /Schweissbaugruppen + Toler
+                                                     anzklasse                  
+
+NORM_OBERFLAECHE                -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Norm der Ober
+                                                     flaechenangaben            
+
+NORM_SONSTIGE                   -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: sonstige allf
+                                                     aellige Normangaben        
+
+SACHNUMMER                                           TYP: Zeichenfolge          
+                                                     QUELLE: Beziehung          
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: Angabe der Sa
+                                                     chnummer (Bauteilbezeichnun
+                                                     g lt. KU-Richtlinien)      
+
+DOKUMENTENART                   -                    TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: JA            
+                                                     BESCHREIBUNG: Fertigungszng
+                                                     ., Zusammenbauzng., Explosi
+                                                     onszng., Montagezng.       
+
+DEFAULT_XHATCH_ANGLE            45.0                 TYP: Reelle Zahl           
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: Schraffurwink
+                                                     el                         
+
+GESETZ_EIGENTUEMER              HTL                  TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG: z.B. HTL XY  
+
+PTC_MASTER_MATERIAL             MAT_ZUWEISEN         TYP: Zeichenfolge          
+                                                     QUELLE: Benutzerdefiniert  
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINGESCHRÄNKT: JA          
+
+PTC_REPORTED_MATERIAL           Liste                TYP: Zeichenfolge          
+                                                     QUELLE: Creo Parametric    
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+Daten für Listenparameter
+-------------------------
+
+Symbolische Konstante            Wert                
+-------------------------------- --------------------
+PTC_REPORTED_MATERIAL            MAT_ZUWEISEN        
+
+Parameter für alternative Masseneigenschaft
+-------------------------------------------
+
+Symbolische Konstante           Aktueller Wert       Eigenschaften               
+------------------------------- -------------------- --------------------------- 
+PRO_MP_SOURCE                   PARAMETERS           TYP: Zeichenfolge          
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_MASS                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_VOLUME                                    TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_AREA                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_COGX                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_COGY                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_COGZ                                      TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IXX                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IYY                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IZZ                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IXZ                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IYZ                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_IXY                                       TYP: Unbekannt             
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_CSYS                 DEFAULT              TYP: Zeichenfolge          
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_INERTIA_ORIGIN       PRO_MP_ALT_CSYS      TYP: Zeichenfolge          
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_ALT_DENSITY              0.000008             TYP: Reelle Zahl           
+                                                     QUELLE: Alternative Massene
+                                                     igenschaften               
+                                                     ZUGRIFF: Voll              
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: kg / mm^3         
+
+Parameter für gemeldete Masseneigenschaften
+-------------------------------------------
+
+Symbolische Konstante           Aktueller Wert       Eigenschaften               
+------------------------------- -------------------- --------------------------- 
+PRO_MP_MASS                     0.025505             TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: kg                
+
+PRO_MP_VOLUME                   3269.822079          TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^3              
+
+PRO_MP_DENSITY                  0.000008             TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: kg / mm^3         
+
+PRO_MP_AREA                     1794.327082          TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^2              
+
+PRO_MP_COGX                     0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm                
+
+PRO_MP_COGY                     0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm                
+
+PRO_MP_COGZ                     -2.645619            TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm                
+
+PRO_MP_IXX                      1.580858             TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^2 kg           
+
+PRO_MP_IYY                      1.786529             TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^2 kg           
+
+PRO_MP_IZZ                      0.763254             TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^2 kg           
+
+PRO_MP_IXZ                      0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^2 kg           
+
+PRO_MP_IYZ                      0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^2 kg           
+
+PRO_MP_IXY                      0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+                                                     EINHEIT: mm^2 kg           
+
+PRO_MP_CSYS                     _STECKERVERLKABEL    TYP: Zeichenfolge          
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_11                   1.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_12                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_13                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_21                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_22                   1.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_23                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_31                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_32                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_33                   1.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_41                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_42                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_TRF_43                   0.0                  TYP: Reelle Zahl           
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
+PRO_MP_INERTIA_ORIGIN           PRO_MP_CSYS          TYP: Zeichenfolge          
+                                                     QUELLE: Masseneigenschaften
+                                                     ZUGRIFF: Gesperrt          
+                                                     AUSGEWIESEN: NEIN          
+                                                     BESCHREIBUNG:              
+
